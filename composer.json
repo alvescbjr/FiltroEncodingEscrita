@@ -1,0 +1,16 @@
+{
+    "name": "55119/filtro-encoding-escrita",
+    "description": "Este projeto tem como objetivo a implementa\u0000\u0000o de um filtro de stream que converte a codifica\u0000\u0000o UTF-8 para ISO-8859-1 na escrita, o filtro \u0000 utilizado no momento em que um arquivo .txt \u0000 lido e as informa\u0000\u0000es s\u0000o escritas em um arquivo .csv.",
+    "authors": [
+        {
+            "name": "Francisco de Assis",
+            "email": "alvescbjr@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "FiltroEncoding\\" : "src/"
+        }
+    }
+}
